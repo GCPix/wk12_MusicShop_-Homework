@@ -46,15 +46,6 @@ public class ShopTest {
     }
 
     @Test
-    public void canCalculateProfit() {
-        shop.addToStock(singleReed);
-        shop.addToStock(clarinet);
-        assertEquals(502.50, shop.getTotalProfit(), 0.01);
-    }
-
-
-
-    @Test
     public void getItemCount() {
         shop.addToStock(singleReed);
         shop.addToStock(clarinet);
@@ -85,17 +76,6 @@ public class ShopTest {
     }
 
     @Test
-    public void getTotalProfit() {
-        shop.addToStock(singleReed);
-        shop.addToStock(clarinet);
-//        shop.addToStock(clarinet);
-
-
-        assertEquals(1002.50, shop.getTotalProfit(), 0.01);
-    }
-
-
-    @Test
     public void sumCostPrice() {
         shop.addToStock(singleReed);
         shop.addToStock(singleReed);
@@ -107,4 +87,17 @@ public class ShopTest {
 
         assertEquals(545.00, shop.sumCostPrice(),0.01);
     }
+
+    @Test
+    public void getTotalProfit() {
+        shop.addToStock(singleReed);
+        shop.addToStock(singleReed);
+        shop.addToStock(clarinet);
+        shop.addToStock(clarinet);
+
+
+        assertEquals(1002.50, shop.getTotalProfit(), 0.01);
+    }
+
+
 }

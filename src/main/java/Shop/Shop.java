@@ -74,18 +74,21 @@ public class Shop{
         //this has to be a simplistic version that assume every clarinet is the same otherwise this doesn't work.
         // different makes and quality would give different profit margins but I got to play with hashmaps!
         double totalProfit = 0.00;
-        double totalPercentage=0;
+        double totalPercentage = 0.00;
+
+
+        ArrayList<String> alreadyDone = new ArrayList<>();
 
             for(ISell item:stock){
-                ArrayList<ISell> alreadyDone = new ArrayList<>();
-                if(this.getWeightings().containsKey(item.getClass().getSimpleName())&&alreadyDone.contains(item)==false) {
 
-                    totalPercentage += ((item.calculateMarkup()) * ((this.getWeightings().get(item.getClass().getSimpleName()))));
-//                    alreadyDone.add(item);
+                if(this.getWeightings().containsKey(item.getClass().getSimpleName())&&(alreadyDone.contains(item.getClass().getSimpleName())==false)) {
+                    alreadyDone.add(item.getClass().getSimpleName());
+                    totalProfit += (((item.calculateMarkup()) * ((this.getWeightings().get(item.getClass().getSimpleName()))))*this.sumCostPrice());
+
                 }
 
             }
-        totalProfit=totalPercentage*this.sumCostPrice();
+//        totalProfit=totalPercentage*this.sumCostPrice();
         return totalProfit;
         }
 

@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98442805-0165-46ff-adff-32994ffab24f" name="Default Changelist" comment="" />
+    <list default="true" id="98442805-0165-46ff-adff-32994ffab24f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AncillaryItems/AncillaryItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AncillaryItems/AncillaryItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Instruments/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruments/Instrument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Shop/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shop/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShopTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SingleReedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SingleReedTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,24 +27,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5779" />
+          <entry key="java" value="6046" />
           <entry key="xml" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5779" />
+          <entry key="JAVA" value="6046" />
           <entry key="XML" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="20" />
+          <entry key="class" value="1" />
+          <entry key="java" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="20" />
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="22" />
         </counts>
       </usages-collector>
     </session>
@@ -47,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Instruments/Instrument.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="260">
+              <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#561#562#0" expanded="true" />
@@ -67,6 +76,7 @@
                 <element signature="e#497#498#0" expanded="true" />
                 <element signature="e#784#785#0" expanded="true" />
                 <element signature="e#838#839#0" expanded="true" />
+                <element signature="e#1170#1171#0" expanded="true" />
                 <element signature="e#1238#1239#0" expanded="true" />
               </folding>
             </state>
@@ -102,8 +112,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/SingleReedTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+            <state relative-caret-position="260">
+              <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#404#416#0" expanded="true" />
@@ -123,8 +133,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ClarinetTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="80" column="5" lean-forward="true" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+            <state relative-caret-position="209">
+              <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1424#1425#0" expanded="true" />
@@ -161,10 +171,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/AncillaryItems/AncillaryItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="260">
+              <caret line="49" column="77" selection-start-line="49" selection-start-column="77" selection-end-line="49" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
                 <element signature="e#583#584#0" expanded="true" />
                 <element signature="e#619#620#0" expanded="true" />
                 <element signature="e#651#652#0" expanded="true" />
@@ -179,7 +190,7 @@
                 <element signature="e#1030#1031#0" expanded="true" />
                 <element signature="e#1056#1057#0" expanded="true" />
                 <element signature="e#1176#1177#0" expanded="true" />
-                <element signature="e#1242#1243#0" expanded="true" />
+                <element signature="e#1235#1236#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -188,8 +199,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Shop/Shop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="80" column="122" lean-forward="true" selection-start-line="80" selection-start-column="122" selection-end-line="80" selection-end-column="122" />
+            <state relative-caret-position="316">
+              <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#158#159#0" expanded="true" />
@@ -208,8 +219,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ShopTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+            <state relative-caret-position="226">
+              <caret line="98" selection-start-line="98" selection-end-line="98" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#559#571#0" expanded="true" />
@@ -231,6 +242,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -245,12 +259,12 @@
         <option value="$PROJECT_DIR$/src/main/java/AncillaryItems/KeyPads.java" />
         <option value="$PROJECT_DIR$/src/main/java/Instruments/Clarinet.java" />
         <option value="$PROJECT_DIR$/src/main/java/Behaviours/ISell.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ClarinetTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Shop/Shop.java" />
         <option value="$PROJECT_DIR$/src/main/java/Instruments/Instrument.java" />
         <option value="$PROJECT_DIR$/src/main/java/AncillaryItems/AncillaryItem.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SingleReedTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ClarinetTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ShopTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Shop/Shop.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SingleReedTest.java" />
       </list>
     </option>
   </component>
@@ -266,6 +280,7 @@
     <option name="width" value="1280" />
     <option name="height" value="778" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -434,9 +449,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ShopTest.getTotalProfit" />
+        <item itemvalue="JUnit.All in MusicShop" />
         <item itemvalue="JUnit.ShopTest.getItemWeighting" />
         <item itemvalue="JUnit.ShopTest" />
-        <item itemvalue="JUnit.All in MusicShop" />
         <item itemvalue="JUnit.SingleReedTest.canGetMarkup" />
       </list>
     </recent_temporary>
@@ -455,35 +470,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ShopTest_getItemWeighting - 2018.11.25 at 18h 10m 02s.xml">
-      <configuration name="ShopTest.getItemWeighting" configurationId="JUnit" />
+    <history-entry file="All_in_MusicShop - 2018.11.25 at 19h 20m 03s.xml">
+      <configuration name="All in MusicShop" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShopTest_getTotalProfit - 2018.11.25 at 18h 21m 43s.xml">
+    <history-entry file="ShopTest_getTotalProfit - 2018.11.25 at 19h 23m 16s.xml">
       <configuration name="ShopTest.getTotalProfit" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShopTest_getTotalProfit - 2018.11.25 at 18h 23m 25s.xml">
+    <history-entry file="ShopTest_getTotalProfit - 2018.11.25 at 19h 23m 53s.xml">
       <configuration name="ShopTest.getTotalProfit" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShopTest_getTotalProfit - 2018.11.25 at 18h 24m 32s.xml">
+    <history-entry file="ShopTest_getTotalProfit - 2018.11.25 at 19h 24m 12s.xml">
       <configuration name="ShopTest.getTotalProfit" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShopTest_getTotalProfit - 2018.11.25 at 18h 25m 59s.xml">
+    <history-entry file="ShopTest_getTotalProfit - 2018.11.25 at 19h 25m 56s.xml">
       <configuration name="ShopTest.getTotalProfit" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShopTest_getTotalProfit - 2018.11.25 at 18h 26m 53s.xml">
+    <history-entry file="ShopTest_getTotalProfit - 2018.11.25 at 19h 31m 35s.xml">
       <configuration name="ShopTest.getTotalProfit" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShopTest_getTotalProfit - 2018.11.25 at 18h 27m 07s.xml">
+    <history-entry file="ShopTest_getTotalProfit - 2018.11.25 at 19h 33m 15s.xml">
       <configuration name="ShopTest.getTotalProfit" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShopTest_getTotalProfit - 2018.11.25 at 18h 34m 20s.xml">
+    <history-entry file="ShopTest_getTotalProfit - 2018.11.25 at 19h 33m 31s.xml">
       <configuration name="ShopTest.getTotalProfit" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShopTest_getTotalProfit - 2018.11.25 at 18h 36m 36s.xml">
+    <history-entry file="ShopTest_getTotalProfit - 2018.11.25 at 19h 33m 45s.xml">
       <configuration name="ShopTest.getTotalProfit" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShopTest_getTotalProfit - 2018.11.25 at 18h 39m 42s.xml">
-      <configuration name="ShopTest.getTotalProfit" configurationId="JUnit" />
+    <history-entry file="All_in_MusicShop - 2018.11.25 at 19h 34m 15s.xml">
+      <configuration name="All in MusicShop" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -492,16 +507,16 @@
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Designer" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.24959612" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.24959612" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32944608" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.32944608" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32944608" />
-      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32944608" />
-      <window_info anchor="bottom" id="Debug" order="7" visible="true" weight="0.39941692" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32944608" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39941692" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -514,18 +529,6 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Shop/Shop.java</url>
-          <line>83</line>
-          <properties />
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -650,66 +653,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SingleReedTest.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+        <state relative-caret-position="-2167">
+          <caret line="853" selection-start-line="853" selection-end-line="853" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#404#416#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#657#658#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#1417#1418#0" expanded="true" />
-            <element signature="e#1447#1448#0" expanded="true" />
+            <element signature="e#31427#31428#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ClarinetTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="80" column="5" lean-forward="true" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1424#1425#0" expanded="true" />
-            <element signature="e#1491#1492#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AncillaryItems/AncillaryItem.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Shop/Shop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="316">
+          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#767#768#0" expanded="true" />
-            <element signature="e#809#810#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#979#980#0" expanded="true" />
-            <element signature="e#1030#1031#0" expanded="true" />
-            <element signature="e#1056#1057#0" expanded="true" />
-            <element signature="e#1176#1177#0" expanded="true" />
-            <element signature="e#1242#1243#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Instruments/Instrument.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="260">
+          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#561#562#0" expanded="true" />
@@ -728,33 +710,73 @@
             <element signature="e#497#498#0" expanded="true" />
             <element signature="e#784#785#0" expanded="true" />
             <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#1170#1171#0" expanded="true" />
             <element signature="e#1238#1239#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Shop/Shop.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AncillaryItems/AncillaryItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="80" column="122" lean-forward="true" selection-start-line="80" selection-start-column="122" selection-end-line="80" selection-end-column="122" />
+        <state relative-caret-position="260">
+          <caret line="49" column="77" selection-start-line="49" selection-start-column="77" selection-end-line="49" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#809#810#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#960#961#0" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
+            <element signature="e#1030#1031#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1176#1177#0" expanded="true" />
+            <element signature="e#1235#1236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SingleReedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#404#416#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#1417#1418#0" expanded="true" />
+            <element signature="e#1447#1448#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ClarinetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1424#1425#0" expanded="true" />
+            <element signature="e#1491#1492#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ShopTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+        <state relative-caret-position="226">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#559#571#0" expanded="true" />

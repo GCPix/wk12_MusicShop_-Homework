@@ -56,6 +56,6 @@ public class SingleReedTest {
 
     @Test
     public void canGetMarkup() {
-        assertEquals(0.25, singleReed.calculateMarkup(), 0.01);
+        assertEquals(0.333, singleReed.calculateMarkup(), 0.01);
     }
 }

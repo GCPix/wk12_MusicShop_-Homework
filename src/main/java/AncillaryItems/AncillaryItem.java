@@ -47,6 +47,6 @@ public abstract class AncillaryItem implements ISell {
         return this.usedWith.size();
     }
     public double calculateMarkup(){
-        return 1-(this.getCostPrice()/this.getSellPrice());
+        return (this.getSellPrice()-this.getCostPrice())/this.getCostPrice();
     }
 }

@@ -51,6 +51,6 @@ public abstract class Instrument implements IPlay, ISell {
     }
 
     public double calculateMarkup(){
-        return ((this.getSellPrice()/this.getCostPrice())-1);
+        return (this.getSellPrice()-this.getCostPrice())/this.getCostPrice();
     }
 }
