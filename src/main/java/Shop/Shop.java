@@ -89,7 +89,7 @@ public class Shop{
                 }
 
             }
-//        totalProfit=totalPercentage*this.sumCostPrice();
+
         return totalProfit;
         }
 
