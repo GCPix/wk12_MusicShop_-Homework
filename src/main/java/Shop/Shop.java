@@ -3,11 +3,12 @@ package Shop;
 import Behaviours.ISell;
 import Instruments.Instrument;
 
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Shop{
-    ArrayList<ISell> stock;
+    private ArrayList<ISell> stock;
 
     public Shop(ArrayList<ISell> stock) {
         this.stock = stock;
@@ -29,7 +30,7 @@ public class Shop{
     public HashMap<String, Double> getItemCount(){
         HashMap<String, Double> itemCount= new HashMap<>();
         String sellItem;
-        Double count = 0.00;
+        double count = 0.00;
 
             for (ISell item : stock) {
                 sellItem = item.getClass().getSimpleName();
@@ -53,11 +54,11 @@ public class Shop{
         HashMap<String, Double> itemWeight= new HashMap<>();
 
         this.getItemCount().forEach((item, count)->{
-            String weightItem = item;
 
             Double result = (count/this.getstockSize());
-            itemWeight.put(weightItem, result);
+            itemWeight.put(item, result);
         });
+
         return itemWeight;
     }
 
@@ -81,7 +82,7 @@ public class Shop{
 
             for(ISell item:stock){
 
-                if(this.getWeightings().containsKey(item.getClass().getSimpleName())&&(alreadyDone.contains(item.getClass().getSimpleName())==false)) {
+                if(this.getWeightings().containsKey(item.getClass().getSimpleName())&&(!alreadyDone.contains(item.getClass().getSimpleName()))) {
                     alreadyDone.add(item.getClass().getSimpleName());
                     totalProfit += (((item.calculateMarkup()) * ((this.getWeightings().get(item.getClass().getSimpleName()))))*this.sumCostPrice());
 

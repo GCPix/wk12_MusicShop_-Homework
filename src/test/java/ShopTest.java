@@ -7,22 +7,23 @@ import Shop.Shop;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.HashMap;
 
 import static org.junit.Assert.assertEquals;
 
 public class ShopTest {
-    Clarinet clarinet;
-    Shop shop;
-    SingleReed singleReed;
+    private Clarinet clarinet;
+    private Shop shop;
+    private SingleReed singleReed;
 
     @Before
     public void setUp() throws Exception {
         clarinet = new Clarinet("Blue", "wood", Type.WOODWIND,500, 1000);
-        ArrayList<Instrument> usedWith = new ArrayList<Instrument>();
+        ArrayList<Instrument> usedWith = new ArrayList<>();
         singleReed = new SingleReed(7.50, 10.00, "wood", usedWith);
-        ArrayList<ISell> stock = new ArrayList<ISell>();
+        ArrayList<ISell> stock = new ArrayList<>();
          shop = new Shop(stock);
     }
     @Test
@@ -67,10 +68,11 @@ public class ShopTest {
         shop.getItemCount();
         HashMap<String, Double> expected = new HashMap<String, Double>() {
             {
-                put("SingleReed", 0.3333);
-                put("Clarinet", 0.6666);
+                put("SingleReed", 0.33);
+                put("Clarinet", 0.66);
             }
         };
+
         assertEquals(expected, shop.getWeightings());
 
     }
